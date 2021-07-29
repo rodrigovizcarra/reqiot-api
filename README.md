@@ -67,6 +67,10 @@ Entrada en formato JSON:
 "pictureUrl": "Avatar o imagen asociada al usuario, esta debe ser una URL"
 }
 
+Acá va un ejemplo usando el cliente Insomnia:
+
+![Ejemplo de registro de un usuario usando el cliente Insomnia](https://raw.githubusercontent.com/rodrigovizcarra/reqiot-api/src/assets/demosignupuser.png)
+
 ## Prerequisitos:
 
 - Mongo DB
