@@ -1,0 +1,1 @@
+Los archivos presentes en el directorio routes son los encargados de definir las rutas asociadas a las llamadas a la base de datos.
