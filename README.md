@@ -9,10 +9,15 @@ El desarrollo considera la utilización de BabelJS, para mejorar la compatibilid
 Este proyecto tiene contiene un archivo de .env que almacena las variables de entorno del proyecto (se consideró al momento de pasar a docker), el formato del archivo es el siguiente:
 
 PORT=(Puerto donde se levantará la API)
+
 DB_HOST=(Host de la base de datos)
+
 DB_USER=(usuario de base de datos con privilegios necesarios)
+
 DB_PASSWORD=(clave del usuario de base de datos)
+
 DB_PORT=(puerto de la base de datos)
+
 DB_NAME=(nombre de la base de datos MongoDB)
 
 ## Scripts
@@ -62,6 +67,7 @@ URL: http://localhost:4000/auth/signup
 Entrada en formato JSON:
 
 {
+
 "username": "nombre de usuario",
 
 "password": "clave para el usario",
@@ -69,6 +75,7 @@ Entrada en formato JSON:
 "name": "Nombre completo del usuario",
 
 "pictureUrl": "Avatar o imagen asociada al usuario, esta debe ser una URL"
+
 }
 
 Acá va un ejemplo usando el cliente Insomnia:
