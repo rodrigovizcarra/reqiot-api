@@ -9,10 +9,6 @@ import votesRoutes from './routes/votes.routes';
 import commentsRoutes from './routes/comments.routes';
 import userRoutes from './routes/user.routes';
 
-/*
- * definiciones del servicio
- */
-
 const app = express();
 
 app.set('pkg', pkg);
