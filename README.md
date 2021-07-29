@@ -69,10 +69,18 @@ Entrada en formato JSON:
 
 ## Prerequisitos:
 
+- Mongo DB
+
 [Instalación MongoDB en MacOS](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+
 [Instalación MongoDB en Windows](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+
 [Instalación MongoDB en Linux](https://docs.mongodb.com/manual/administration/install-on-linux/)
 
+- Mongo Docker
+
 [Instalación Docker en MacOS](https://docs.docker.com/docker-for-mac/install/)
+
 [Instalación Docker en Windows](https://docs.docker.com/docker-for-windows/install/)
+
 [Instalación Docker en Linux - Ubuntu - Se puede navegar para otras distribuciones.](https://docs.docker.com/engine/install/ubuntu/)
