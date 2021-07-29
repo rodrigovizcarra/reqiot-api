@@ -69,7 +69,7 @@ Entrada en formato JSON:
 
 Acá va un ejemplo usando el cliente Insomnia:
 
-![Ejemplo de registro de un usuario usando el cliente Insomnia](https://raw.githubusercontent.com/rodrigovizcarra/reqiot-api/src/assets/demosignupuser.png)
+![Ejemplo de registro de un usuario usando el cliente Insomnia](https://raw.githubusercontent.com/rodrigovizcarra/reqiot-api/main/src/assets/demosignupuser.png)
 
 ## Prerequisitos:
 
