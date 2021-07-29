@@ -33,6 +33,14 @@ export const getRequirements = async (req, res) => {
 		},
 		{
 			$lookup: {
+				from: 'negativevotes',
+				localField: '_id',
+				foreignField: 'requirement_id',
+				as: 'negativevotes',
+			},
+		},
+		{
+			$lookup: {
 				from: 'comments',
 				localField: '_id',
 				foreignField: 'requirement_id',

@@ -6,6 +6,7 @@ import cors from 'cors';
 import requirementsRoutes from './routes/req.routes';
 import authRoutes from './routes/auth.routes';
 import votesRoutes from './routes/votes.routes';
+import negativevotesRoutes from './routes/negativevotes.routes';
 import commentsRoutes from './routes/comments.routes';
 import userRoutes from './routes/user.routes';
 
@@ -31,6 +32,7 @@ app.get('/', (req, res) => {
 app.use('/requirements', requirementsRoutes);
 app.use('/auth', authRoutes);
 app.use('/votes', votesRoutes);
+app.use('/negativevotes', negativevotesRoutes);
 app.use('/comments', commentsRoutes);
 app.use('/users', userRoutes);
 
