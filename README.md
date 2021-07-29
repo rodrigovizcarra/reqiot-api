@@ -58,12 +58,16 @@ Si la imagen se levantó localmente, se puede revisar en http://localhost:4000
 Puesto que el proyecto web no considera un formulario de registro, se debe utilizar un cliente rest para generar el primer usuario con los siguientes datos:
 
 URL: http://localhost:4000/auth/signup
+
 Entrada en formato JSON:
 
 {
 "username": "nombre de usuario",
+
 "password": "clave para el usario",
+
 "name": "Nombre completo del usuario",
+
 "pictureUrl": "Avatar o imagen asociada al usuario, esta debe ser una URL"
 }
 
