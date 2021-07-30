@@ -6,7 +6,7 @@ El desarrollo considera la utilización de BabelJS, para mejorar la compatibilid
 
 ## Configuraciones
 
-Este proyecto tiene contiene un archivo de .env que almacena las variables de entorno del proyecto (se consideró al momento de pasar a docker), el formato del archivo es el siguiente:
+Este proyecto tiene contiene un archivo de .env que almacena las variables de entorno del proyecto, para definir el puerto donde se levantará el servicio y los datos de la base de datos (se consideró al momento de pasar a docker), el formato del archivo es el siguiente:
 
 PORT=(Puerto donde se levantará la API)
 
@@ -83,6 +83,8 @@ Acá va un ejemplo usando el cliente Insomnia:
 ![Ejemplo de registro de un usuario usando el cliente Insomnia](https://raw.githubusercontent.com/rodrigovizcarra/reqiot-api/main/src/assets/demosignupuser.png)
 
 ## Prerequisitos:
+
+Este proyecto utiliza como base de datos MongoDB, conexión que debe ser configurada en un archivo .env (como se menciona anteriormente) y para Docker se debe instalar Docker en la máquina donde se ejecutará el proyecto.
 
 - Mongo DB
 
