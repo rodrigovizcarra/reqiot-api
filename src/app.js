@@ -9,7 +9,6 @@ import votesRoutes from './routes/votes.routes';
 import negativevotesRoutes from './routes/negativevotes.routes';
 import commentsRoutes from './routes/comments.routes';
 import userRoutes from './routes/user.routes';
-
 const app = express();
 
 app.set('pkg', pkg);
